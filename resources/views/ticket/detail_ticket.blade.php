@@ -11,8 +11,11 @@
         }
         #page_ticket ul li{
             display: inline-block;
-            width: 30px;
+            width: 40px;
+            height: 40px;
             cursor: pointer;
+            line-height: 40px;
+            font-size: 22px;
         }
         #detail_ticket{
             background: #ecf0f5;

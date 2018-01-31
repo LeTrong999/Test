@@ -150,10 +150,10 @@
               if(data.status == 'ok'){
                   var token = data.token;
                   localStorage.setItem("token",token);
-                  window.location.href = 'http://localhost/myNextProject/customer/add';
+                  window.location.href = './customer/add';
               }
               else{
-                window.location.href = 'http://localhost/myNextProject/login';
+                window.location.href = './login';
               }
           },
 
